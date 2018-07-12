@@ -1,0 +1,167 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-family: "HeliosRegular", sans-serif
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+button, 
+button:active, 
+button:focus 
+	outline: none
+
+b, strong
+	font-weight: bold
+.container
+	// display: flex
+	max-width: 1200px
+.header
+	margin-bottom: 57px
+	&__up
+		color: #fff
+		height: 307px
+		background-image: url(../img/headerbg.png)
+		background-size: cover
+		border: 1px solid #000000
+		.container
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+	.headertext
+		font-family: "HeliosRegular", sans-serif
+		font-size: 18px	
+		margin: 129px 0 0 19px
+	&__bottom
+		display: flex	
+
+.logo 
+	position: relative
+	width: 420px
+	margin: 100px 0 0 47px
+	&__text,
+	&__text:hover	
+		text-decoration: none
+		color: #fff
+		font-family: "LatoRegular", sans-serif
+		letter-spacing: 0
+		position: absolute
+		top: 17px
+		left: 88px
+		font-size: 52px
+.imac
+	margin: -128px 34px 0 160px
+.download
+	font-family: "HeliosRegular", sans-serif
+	line-height: 1.2;
+	margin: 78px 0 0 106px;
+	font-size: 25px;
+	&__text
+		letter-spacing: 0px
+		font-size: 24px
+	&__button	
+		width: 235px
+		height: 50px
+		font-size: 16px
+		margin: 80px 0 0 -2px
+		color: #fff
+		background-color: #e60632
+		border: none
+		line-height: 1
+		box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.55)
+		cursor: pointer
+.main
+	font-family: "LatoRegular", sans-serif	
+.description
+	display: flex
+	margin-bottom: 70px
+	&__h1
+		font-family: "LatoRegular", sans-serif
+		text-align: center
+		font-size: 30px	
+	&__macbook
+		margin: 56px 0 0 -12px	
+	&__text
+		text-align: center;
+		padding: 123px 0 0 15px;
+		font-size: 18px		
+	&__button
+		font-family: "LatoRegular", sans-serif
+		font-weight: 700
+		width: 235px
+		height: 50px
+		font-size: 16px
+		margin: 29px 0 44px 3px
+		color: #fff
+		background-color: #e60632
+		border: none
+		cursor: pointer
+		line-height: 1
+		box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.55)
+.fluid
+	font-family: "LatoRegular", sans-serif
+	font-weight: 700
+	color: #fff
+	background-color: #cb021c
+	.container
+		padding: 0
+
+.advantage
+	display: flex
+	font-size: 16px
+	padding-bottom: 21px
+	&__h1
+		text-align: center
+		font-size: 30px
+		font-family: "LatoRegular", sans-serif
+		padding-top: 40px
+		margin-bottom: 45px
+	p
+		margin: 0
+	&__col	
+		mr97
+.column1
+	margin-right: 97px
+.column2
+	margin-right: 86px
+.column3	
+	.check
+		margin-bottom: 21px				
+.check
+	display: flex
+	margin-bottom: 9px
+	&__p
+		line-height: 1
+	p
+		padding: 0 0 0 20px	
+@import "media" // Always at the end

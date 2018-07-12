@@ -1,0 +1,74 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+	.imac 
+		margin: -100px 0 0 0
+	.description
+		display: block	
+		margin-bottom: 30px
+		&__macbook
+			text-align: center
+		&__text
+			padding: 30px 10px	
+	.download
+		margin: 40px 0 0 35px		
+// ≥768px
++media-breakpoint-down(sm)
+	.advantage
+		margin: auto
+		display: block
+		&__col
+			width: 400px
+			margin: auto
+	.header	
+		&__up
+			.container
+				display: block	
+				text-align: center
+				.headertext
+					margin: 0
+				.logo
+					margin: 50px auto
+					width: 300px
+					&__text
+						margin: 15px 0 0 25px
+						font-size: 30px
+					&__svg
+						margin-left: -120px	
+		&__bottom
+			display: block
+			.download
+				text-align: center
+				margin: 10px 0px
+				&__button
+					margin-top: 20px
+			.imac
+				margin: 0
+				text-align: center
+					
+// ≥576px
++media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+	.fluid
+		.container
+			padding: 0 15px 
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 4</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet"> -->
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__up">
+			<div class="container">
+				
+				<div class="logo ">
+					<div class="logo__svg">
+						<a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136" height="70" viewBox="0 0 136 70">
+							<image id="mt5" width="136" height="70" xlink:href="data:img/png;base64,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"/>
+						</svg></a>
+					</div>
+					<a href="#" class="logo__text">MetaTrader 5</a>
+				</div>
+				<div class="headertext ">Соврмеменная профессиональная <br>торговая платформа</div>
+				
+			</div>
+		</div>
+		<div class="container">
+			<div class="header__bottom">
+				<div class="download">
+					<p class="download__text">
+						Скачай Metatrader 5 сейчас и начни торговать на финансовых рынках.
+					</p>
+					<button class="button download__button">
+						Скачать платформу MT5
+					</button>
+				</div>
+				<div class="imac">
+					<img class="imac__img" src="img/imac.png">
+				</div>
+			</div>
+			
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<div class="main__cont">
+				<h1 class="description__h1">Что такое «Торговая платформа Meta Trader 5»?</h1>
+				<div class="description">
+					
+					<div class="description__macbook">
+						<img src="img/macbook.png">
+					</div>
+					<div class="description__text">
+						<p>MetaTrader – самая популярная платформа среди трейдеров. Новая версия, MetaTrader 5, даёт много дополнительных возможностей: технический и фундаментальный анализ рынка, алгоритмическая торговля, копи трейдинг, создание торговых систем. </p>
+						<button class="button description__button">Скачать платформу MT5</button>
+						<p>Если Вы опытный трейдер, то даже без навыков программирования сможете написать торгового робота самостоятельно. В MetaTrader 5 это легко реализуемо. Также, можно скачать готового советника.</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="fluid">
+			<div class="container">
+				<h1 class="advantage__h1">Преимущества MT5 перед MT4</h1>
+				<div class="advantage">
+					
+					<div class="advantage__col column1">
+						<div class="check">
+							<div class="check__svg">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="15" viewBox="0 0 23 15">
+									<image id="Слой_12_копия_11" data-name="Слой 12 копия 11" width="23" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAPCAQAAAClppzdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBwsSHDgjrtnlAAABB0lEQVQoz4XQPSgFABAA4POwPPnNYKFMJAs7JmWwmGSRIossFqOBLCYvM8lPJgN5UsorBuVnVjIZMEkZyM9n8J/3nrvluvu6risQ/8RcJGI0XiIiFYUhf07gRJEwjeP8eBjXGoQBXGrIhzs8etImdHryoF3kxvWuMSg0ukK/yM2rHGFSKHeKqfd+dpyQxpJQYAvzn5PsfBaHksIMMkq++bhF5b/wEC7UCiO4VPc9C6vIqPhqdXl1p0Xo9uxe689VodQmMqqF0OwGPUKTW/T+PjOEpA0cKFPqHGNCjbOP6g8PSevYk0ZKnxX7mPv7hM+i2BrYlpACu4py81BsQUalUGLZjqpsL34DTxaTXN6BTFwAAAAASUVORK5CYII="/>
+								</svg>
+							</div>
+
+							<div class="check__p">
+								<p>большое количество таймфреймов</p>
+							</div>
+						</div>
+						
+						<div class="check">
+							<div class="check__svg">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="15" viewBox="0 0 23 15">
+									<image id="Слой_12_копия_11" data-name="Слой 12 копия 11" width="23" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAPCAQAAAClppzdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBwsSHDgjrtnlAAABB0lEQVQoz4XQPSgFABAA4POwPPnNYKFMJAs7JmWwmGSRIossFqOBLCYvM8lPJgN5UsorBuVnVjIZMEkZyM9n8J/3nrvluvu6risQ/8RcJGI0XiIiFYUhf07gRJEwjeP8eBjXGoQBXGrIhzs8etImdHryoF3kxvWuMSg0ukK/yM2rHGFSKHeKqfd+dpyQxpJQYAvzn5PsfBaHksIMMkq++bhF5b/wEC7UCiO4VPc9C6vIqPhqdXl1p0Xo9uxe689VodQmMqqF0OwGPUKTW/T+PjOEpA0cKFPqHGNCjbOP6g8PSevYk0ZKnxX7mPv7hM+i2BrYlpACu4py81BsQUalUGLZjqpsL34DTxaTXN6BTFwAAAAASUVORK5CYII="/>
+								</svg>
+							</div>
+							<div class="check__p">
+								<p>новый тестер стратегий</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="advantage__col column2">
+						<div class="check">
+							<div class="check__svg">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="15" viewBox="0 0 23 15">
+									<image id="Слой_12_копия_11" data-name="Слой 12 копия 11" width="23" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAPCAQAAAClppzdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBwsSHDgjrtnlAAABB0lEQVQoz4XQPSgFABAA4POwPPnNYKFMJAs7JmWwmGSRIossFqOBLCYvM8lPJgN5UsorBuVnVjIZMEkZyM9n8J/3nrvluvu6risQ/8RcJGI0XiIiFYUhf07gRJEwjeP8eBjXGoQBXGrIhzs8etImdHryoF3kxvWuMSg0ukK/yM2rHGFSKHeKqfd+dpyQxpJQYAvzn5PsfBaHksIMMkq++bhF5b/wEC7UCiO4VPc9C6vIqPhqdXl1p0Xo9uxe689VodQmMqqF0OwGPUKTW/T+PjOEpA0cKFPqHGNCjbOP6g8PSevYk0ZKnxX7mPv7hM+i2BrYlpACu4py81BsQUalUGLZjqpsL34DTxaTXN6BTFwAAAAASUVORK5CYII="/>
+								</svg>
+							</div>
+							<div class="check__p">
+								<p>экономический календарь</p>
+							</div>
+						</div>
+						
+						<div class="check">
+							<div class="check__svg">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="15" viewBox="0 0 23 15">
+									<image id="Слой_12_копия_11" data-name="Слой 12 копия 11" width="23" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAPCAQAAAClppzdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBwsSHDgjrtnlAAABB0lEQVQoz4XQPSgFABAA4POwPPnNYKFMJAs7JmWwmGSRIossFqOBLCYvM8lPJgN5UsorBuVnVjIZMEkZyM9n8J/3nrvluvu6risQ/8RcJGI0XiIiFYUhf07gRJEwjeP8eBjXGoQBXGrIhzs8etImdHryoF3kxvWuMSg0ukK/yM2rHGFSKHeKqfd+dpyQxpJQYAvzn5PsfBaHksIMMkq++bhF5b/wEC7UCiO4VPc9C6vIqPhqdXl1p0Xo9uxe689VodQmMqqF0OwGPUKTW/T+PjOEpA0cKFPqHGNCjbOP6g8PSevYk0ZKnxX7mPv7hM+i2BrYlpACu4py81BsQUalUGLZjqpsL34DTxaTXN6BTFwAAAAASUVORK5CYII="/>
+								</svg>
+							</div>
+							<div class="check__p">
+								<p>больше технических индикаторов и <br>инструментов анализа</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="advantage__col column3">
+						<div class="check">
+							<div class="check__svg">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="15" viewBox="0 0 23 15">
+									<image id="Слой_12_копия_11" data-name="Слой 12 копия 11" width="23" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAPCAQAAAClppzdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBwsSHDgjrtnlAAABB0lEQVQoz4XQPSgFABAA4POwPPnNYKFMJAs7JmWwmGSRIossFqOBLCYvM8lPJgN5UsorBuVnVjIZMEkZyM9n8J/3nrvluvu6risQ/8RcJGI0XiIiFYUhf07gRJEwjeP8eBjXGoQBXGrIhzs8etImdHryoF3kxvWuMSg0ukK/yM2rHGFSKHeKqfd+dpyQxpJQYAvzn5PsfBaHksIMMkq++bhF5b/wEC7UCiO4VPc9C6vIqPhqdXl1p0Xo9uxe689VodQmMqqF0OwGPUKTW/T+PjOEpA0cKFPqHGNCjbOP6g8PSevYk0ZKnxX7mPv7hM+i2BrYlpACu4py81BsQUalUGLZjqpsL34DTxaTXN6BTFwAAAAASUVORK5CYII="/>
+								</svg>
+							</div>
+							<div class="check__p">
+								<p>два новых ордера — Buy Stop Limit и<br>Sell Stop Limit</p>
+							</div>
+						</div>
+						
+						<div class="check">
+							<div class="check__svg">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="15" viewBox="0 0 23 15">
+									<image id="Слой_12_копия_11" data-name="Слой 12 копия 11" width="23" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAPCAQAAAClppzdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBwsSHDgjrtnlAAABB0lEQVQoz4XQPSgFABAA4POwPPnNYKFMJAs7JmWwmGSRIossFqOBLCYvM8lPJgN5UsorBuVnVjIZMEkZyM9n8J/3nrvluvu6risQ/8RcJGI0XiIiFYUhf07gRJEwjeP8eBjXGoQBXGrIhzs8etImdHryoF3kxvWuMSg0ukK/yM2rHGFSKHeKqfd+dpyQxpJQYAvzn5PsfBaHksIMMkq++bhF5b/wEC7UCiO4VPc9C6vIqPhqdXl1p0Xo9uxe689VodQmMqqF0OwGPUKTW/T+PjOEpA0cKFPqHGNCjbOP6g8PSevYk0ZKnxX7mPv7hM+i2BrYlpACu4py81BsQUalUGLZjqpsL34DTxaTXN6BTFwAAAAASUVORK5CYII="/>
+								</svg>
+							</div>
+							<div class="check__p">
+								<p>высокая производительность кода MQL5</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+
+	
+
+</body>
+</html>
